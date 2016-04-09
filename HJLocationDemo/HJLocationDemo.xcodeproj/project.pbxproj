@@ -51,6 +51,7 @@
 		CEA601C61CB88C4B00BDD6C5 /* HJLocationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJLocationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA601CA1CB88C4B00BDD6C5 /* HJLocationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLocationDemoUITests.m; sourceTree = "<group>"; };
 		CEA601CC1CB88C4B00BDD6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA601D81CB88F7D00BDD6C5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 				CEA601A91CB88C4B00BDD6C5 /* AppDelegate.m */,
 				CEA601AB1CB88C4B00BDD6C5 /* ViewController.h */,
 				CEA601AC1CB88C4B00BDD6C5 /* ViewController.m */,
+				CEA601D81CB88F7D00BDD6C5 /* Header.h */,
 				CEA601AE1CB88C4B00BDD6C5 /* Main.storyboard */,
 				CEA601B11CB88C4B00BDD6C5 /* Assets.xcassets */,
 				CEA601B31CB88C4B00BDD6C5 /* LaunchScreen.storyboard */,
@@ -414,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HJLocationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJLocationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HJLocationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJLocationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +502,7 @@
 				CEA601D11CB88C4B00BDD6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEA601D21CB88C4B00BDD6C5 /* Build configuration list for PBXNativeTarget "HJLocationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				CEA601D41CB88C4B00BDD6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEA601D51CB88C4B00BDD6C5 /* Build configuration list for PBXNativeTarget "HJLocationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				CEA601D71CB88C4B00BDD6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
