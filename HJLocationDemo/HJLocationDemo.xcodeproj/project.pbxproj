@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA601A71CB88C4B00BDD6C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601A61CB88C4B00BDD6C5 /* main.m */; };
+		CEA601AA1CB88C4B00BDD6C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601A91CB88C4B00BDD6C5 /* AppDelegate.m */; };
+		CEA601AD1CB88C4B00BDD6C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601AC1CB88C4B00BDD6C5 /* ViewController.m */; };
+		CEA601B01CB88C4B00BDD6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA601AE1CB88C4B00BDD6C5 /* Main.storyboard */; };
+		CEA601B21CB88C4B00BDD6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA601B11CB88C4B00BDD6C5 /* Assets.xcassets */; };
+		CEA601B51CB88C4B00BDD6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA601B31CB88C4B00BDD6C5 /* LaunchScreen.storyboard */; };
+		CEA601C01CB88C4B00BDD6C5 /* HJLocationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601BF1CB88C4B00BDD6C5 /* HJLocationDemoTests.m */; };
+		CEA601CB1CB88C4B00BDD6C5 /* HJLocationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601CA1CB88C4B00BDD6C5 /* HJLocationDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA601BC1CB88C4B00BDD6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA6019A1CB88C4A00BDD6C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA601A11CB88C4A00BDD6C5;
+			remoteInfo = HJLocationDemo;
+		};
+		CEA601C71CB88C4B00BDD6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA6019A1CB88C4A00BDD6C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA601A11CB88C4A00BDD6C5;
+			remoteInfo = HJLocationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA601A21CB88C4B00BDD6C5 /* HJLocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJLocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA601A61CB88C4B00BDD6C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA601A81CB88C4B00BDD6C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEA601A91CB88C4B00BDD6C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEA601AB1CB88C4B00BDD6C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEA601AC1CB88C4B00BDD6C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEA601AF1CB88C4B00BDD6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA601B11CB88C4B00BDD6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA601B41CB88C4B00BDD6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA601B61CB88C4B00BDD6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA601BB1CB88C4B00BDD6C5 /* HJLocationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJLocationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA601BF1CB88C4B00BDD6C5 /* HJLocationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLocationDemoTests.m; sourceTree = "<group>"; };
+		CEA601C11CB88C4B00BDD6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA601C61CB88C4B00BDD6C5 /* HJLocationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJLocationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA601CA1CB88C4B00BDD6C5 /* HJLocationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLocationDemoUITests.m; sourceTree = "<group>"; };
+		CEA601CC1CB88C4B00BDD6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA6019F1CB88C4A00BDD6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601B81CB88C4B00BDD6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601C31CB88C4B00BDD6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA601991CB88C4A00BDD6C5 = {
+			isa = PBXGroup;
+			children = (
+				CEA601A41CB88C4B00BDD6C5 /* HJLocationDemo */,
+				CEA601BE1CB88C4B00BDD6C5 /* HJLocationDemoTests */,
+				CEA601C91CB88C4B00BDD6C5 /* HJLocationDemoUITests */,
+				CEA601A31CB88C4B00BDD6C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA601A31CB88C4B00BDD6C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA601A21CB88C4B00BDD6C5 /* HJLocationDemo.app */,
+				CEA601BB1CB88C4B00BDD6C5 /* HJLocationDemoTests.xctest */,
+				CEA601C61CB88C4B00BDD6C5 /* HJLocationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA601A41CB88C4B00BDD6C5 /* HJLocationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEA601A81CB88C4B00BDD6C5 /* AppDelegate.h */,
+				CEA601A91CB88C4B00BDD6C5 /* AppDelegate.m */,
+				CEA601AB1CB88C4B00BDD6C5 /* ViewController.h */,
+				CEA601AC1CB88C4B00BDD6C5 /* ViewController.m */,
+				CEA601AE1CB88C4B00BDD6C5 /* Main.storyboard */,
+				CEA601B11CB88C4B00BDD6C5 /* Assets.xcassets */,
+				CEA601B31CB88C4B00BDD6C5 /* LaunchScreen.storyboard */,
+				CEA601B61CB88C4B00BDD6C5 /* Info.plist */,
+				CEA601A51CB88C4B00BDD6C5 /* Supporting Files */,
+			);
+			path = HJLocationDemo;
+			sourceTree = "<group>";
+		};
+		CEA601A51CB88C4B00BDD6C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA601A61CB88C4B00BDD6C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA601BE1CB88C4B00BDD6C5 /* HJLocationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA601BF1CB88C4B00BDD6C5 /* HJLocationDemoTests.m */,
+				CEA601C11CB88C4B00BDD6C5 /* Info.plist */,
+			);
+			path = HJLocationDemoTests;
+			sourceTree = "<group>";
+		};
+		CEA601C91CB88C4B00BDD6C5 /* HJLocationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA601CA1CB88C4B00BDD6C5 /* HJLocationDemoUITests.m */,
+				CEA601CC1CB88C4B00BDD6C5 /* Info.plist */,
+			);
+			path = HJLocationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA601A11CB88C4A00BDD6C5 /* HJLocationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA601CF1CB88C4B00BDD6C5 /* Build configuration list for PBXNativeTarget "HJLocationDemo" */;
+			buildPhases = (
+				CEA6019E1CB88C4A00BDD6C5 /* Sources */,
+				CEA6019F1CB88C4A00BDD6C5 /* Frameworks */,
+				CEA601A01CB88C4A00BDD6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJLocationDemo;
+			productName = HJLocationDemo;
+			productReference = CEA601A21CB88C4B00BDD6C5 /* HJLocationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA601BA1CB88C4B00BDD6C5 /* HJLocationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA601D21CB88C4B00BDD6C5 /* Build configuration list for PBXNativeTarget "HJLocationDemoTests" */;
+			buildPhases = (
+				CEA601B71CB88C4B00BDD6C5 /* Sources */,
+				CEA601B81CB88C4B00BDD6C5 /* Frameworks */,
+				CEA601B91CB88C4B00BDD6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA601BD1CB88C4B00BDD6C5 /* PBXTargetDependency */,
+			);
+			name = HJLocationDemoTests;
+			productName = HJLocationDemoTests;
+			productReference = CEA601BB1CB88C4B00BDD6C5 /* HJLocationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA601C51CB88C4B00BDD6C5 /* HJLocationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA601D51CB88C4B00BDD6C5 /* Build configuration list for PBXNativeTarget "HJLocationDemoUITests" */;
+			buildPhases = (
+				CEA601C21CB88C4B00BDD6C5 /* Sources */,
+				CEA601C31CB88C4B00BDD6C5 /* Frameworks */,
+				CEA601C41CB88C4B00BDD6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA601C81CB88C4B00BDD6C5 /* PBXTargetDependency */,
+			);
+			name = HJLocationDemoUITests;
+			productName = HJLocationDemoUITests;
+			productReference = CEA601C61CB88C4B00BDD6C5 /* HJLocationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA6019A1CB88C4A00BDD6C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangjiong;
+				TargetAttributes = {
+					CEA601A11CB88C4A00BDD6C5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CEA601BA1CB88C4B00BDD6C5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEA601A11CB88C4A00BDD6C5;
+					};
+					CEA601C51CB88C4B00BDD6C5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEA601A11CB88C4A00BDD6C5;
+					};
+				};
+			};
+			buildConfigurationList = CEA6019D1CB88C4A00BDD6C5 /* Build configuration list for PBXProject "HJLocationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA601991CB88C4A00BDD6C5;
+			productRefGroup = CEA601A31CB88C4B00BDD6C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA601A11CB88C4A00BDD6C5 /* HJLocationDemo */,
+				CEA601BA1CB88C4B00BDD6C5 /* HJLocationDemoTests */,
+				CEA601C51CB88C4B00BDD6C5 /* HJLocationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA601A01CB88C4A00BDD6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA601B51CB88C4B00BDD6C5 /* LaunchScreen.storyboard in Resources */,
+				CEA601B21CB88C4B00BDD6C5 /* Assets.xcassets in Resources */,
+				CEA601B01CB88C4B00BDD6C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601B91CB88C4B00BDD6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601C41CB88C4B00BDD6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA6019E1CB88C4A00BDD6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA601AD1CB88C4B00BDD6C5 /* ViewController.m in Sources */,
+				CEA601AA1CB88C4B00BDD6C5 /* AppDelegate.m in Sources */,
+				CEA601A71CB88C4B00BDD6C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601B71CB88C4B00BDD6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA601C01CB88C4B00BDD6C5 /* HJLocationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601C21CB88C4B00BDD6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA601CB1CB88C4B00BDD6C5 /* HJLocationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA601BD1CB88C4B00BDD6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA601A11CB88C4A00BDD6C5 /* HJLocationDemo */;
+			targetProxy = CEA601BC1CB88C4B00BDD6C5 /* PBXContainerItemProxy */;
+		};
+		CEA601C81CB88C4B00BDD6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA601A11CB88C4A00BDD6C5 /* HJLocationDemo */;
+			targetProxy = CEA601C71CB88C4B00BDD6C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA601AE1CB88C4B00BDD6C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA601AF1CB88C4B00BDD6C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA601B31CB88C4B00BDD6C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA601B41CB88C4B00BDD6C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA601CD1CB88C4B00BDD6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA601CE1CB88C4B00BDD6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA601D01CB88C4B00BDD6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJLocationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJLocationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEA601D11CB88C4B00BDD6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJLocationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJLocationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEA601D31CB88C4B00BDD6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJLocationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJLocationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJLocationDemo.app/HJLocationDemo";
+			};
+			name = Debug;
+		};
+		CEA601D41CB88C4B00BDD6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJLocationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJLocationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJLocationDemo.app/HJLocationDemo";
+			};
+			name = Release;
+		};
+		CEA601D61CB88C4B00BDD6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJLocationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJLocationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJLocationDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEA601D71CB88C4B00BDD6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJLocationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hj.com.HJLocationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJLocationDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA6019D1CB88C4A00BDD6C5 /* Build configuration list for PBXProject "HJLocationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA601CD1CB88C4B00BDD6C5 /* Debug */,
+				CEA601CE1CB88C4B00BDD6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA601CF1CB88C4B00BDD6C5 /* Build configuration list for PBXNativeTarget "HJLocationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA601D01CB88C4B00BDD6C5 /* Debug */,
+				CEA601D11CB88C4B00BDD6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA601D21CB88C4B00BDD6C5 /* Build configuration list for PBXNativeTarget "HJLocationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA601D31CB88C4B00BDD6C5 /* Debug */,
+				CEA601D41CB88C4B00BDD6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA601D51CB88C4B00BDD6C5 /* Build configuration list for PBXNativeTarget "HJLocationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA601D61CB88C4B00BDD6C5 /* Debug */,
+				CEA601D71CB88C4B00BDD6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA6019A1CB88C4A00BDD6C5 /* Project object */;
+}
