@@ -15,6 +15,14 @@
 		CEA601B51CB88C4B00BDD6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA601B31CB88C4B00BDD6C5 /* LaunchScreen.storyboard */; };
 		CEA601C01CB88C4B00BDD6C5 /* HJLocationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601BF1CB88C4B00BDD6C5 /* HJLocationDemoTests.m */; };
 		CEA601CB1CB88C4B00BDD6C5 /* HJLocationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601CA1CB88C4B00BDD6C5 /* HJLocationDemoUITests.m */; };
+		CEA601E11CB8962800BDD6C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601E01CB8962800BDD6C5 /* main.m */; };
+		CEA601E41CB8962800BDD6C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601E31CB8962800BDD6C5 /* AppDelegate.m */; };
+		CEA601E71CB8962800BDD6C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601E61CB8962800BDD6C5 /* ViewController.m */; };
+		CEA601EA1CB8962800BDD6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA601E81CB8962800BDD6C5 /* Main.storyboard */; };
+		CEA601EC1CB8962800BDD6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA601EB1CB8962800BDD6C5 /* Assets.xcassets */; };
+		CEA601EF1CB8962800BDD6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA601ED1CB8962800BDD6C5 /* LaunchScreen.storyboard */; };
+		CEA601FA1CB8962800BDD6C5 /* _23Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA601F91CB8962800BDD6C5 /* _23Tests.m */; };
+		CEA602051CB8962900BDD6C5 /* _23UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA602041CB8962900BDD6C5 /* _23UITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +39,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = CEA601A11CB88C4A00BDD6C5;
 			remoteInfo = HJLocationDemo;
+		};
+		CEA601F61CB8962800BDD6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA6019A1CB88C4A00BDD6C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA601DC1CB8962800BDD6C5;
+			remoteInfo = 123;
+		};
+		CEA602011CB8962900BDD6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA6019A1CB88C4A00BDD6C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA601DC1CB8962800BDD6C5;
+			remoteInfo = 123;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,6 +74,22 @@
 		CEA601CA1CB88C4B00BDD6C5 /* HJLocationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLocationDemoUITests.m; sourceTree = "<group>"; };
 		CEA601CC1CB88C4B00BDD6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA601D81CB88F7D00BDD6C5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		CEA601DD1CB8962800BDD6C5 /* 123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 123.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA601E01CB8962800BDD6C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA601E21CB8962800BDD6C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEA601E31CB8962800BDD6C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEA601E51CB8962800BDD6C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEA601E61CB8962800BDD6C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEA601E91CB8962800BDD6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA601EB1CB8962800BDD6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA601EE1CB8962800BDD6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA601F01CB8962800BDD6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA601F51CB8962800BDD6C5 /* 123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 123Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA601F91CB8962800BDD6C5 /* _23Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _23Tests.m; sourceTree = "<group>"; };
+		CEA601FB1CB8962800BDD6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA602001CB8962800BDD6C5 /* 123UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 123UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA602041CB8962900BDD6C5 /* _23UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _23UITests.m; sourceTree = "<group>"; };
+		CEA602061CB8962900BDD6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +114,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEA601DA1CB8962800BDD6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601F21CB8962800BDD6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601FD1CB8962800BDD6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +144,9 @@
 				CEA601A41CB88C4B00BDD6C5 /* HJLocationDemo */,
 				CEA601BE1CB88C4B00BDD6C5 /* HJLocationDemoTests */,
 				CEA601C91CB88C4B00BDD6C5 /* HJLocationDemoUITests */,
+				CEA601DE1CB8962800BDD6C5 /* 123 */,
+				CEA601F81CB8962800BDD6C5 /* 123Tests */,
+				CEA602031CB8962900BDD6C5 /* 123UITests */,
 				CEA601A31CB88C4B00BDD6C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +157,9 @@
 				CEA601A21CB88C4B00BDD6C5 /* HJLocationDemo.app */,
 				CEA601BB1CB88C4B00BDD6C5 /* HJLocationDemoTests.xctest */,
 				CEA601C61CB88C4B00BDD6C5 /* HJLocationDemoUITests.xctest */,
+				CEA601DD1CB8962800BDD6C5 /* 123.app */,
+				CEA601F51CB8962800BDD6C5 /* 123Tests.xctest */,
+				CEA602001CB8962800BDD6C5 /* 123UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +205,48 @@
 				CEA601CC1CB88C4B00BDD6C5 /* Info.plist */,
 			);
 			path = HJLocationDemoUITests;
+			sourceTree = "<group>";
+		};
+		CEA601DE1CB8962800BDD6C5 /* 123 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA601E21CB8962800BDD6C5 /* AppDelegate.h */,
+				CEA601E31CB8962800BDD6C5 /* AppDelegate.m */,
+				CEA601E51CB8962800BDD6C5 /* ViewController.h */,
+				CEA601E61CB8962800BDD6C5 /* ViewController.m */,
+				CEA601E81CB8962800BDD6C5 /* Main.storyboard */,
+				CEA601EB1CB8962800BDD6C5 /* Assets.xcassets */,
+				CEA601ED1CB8962800BDD6C5 /* LaunchScreen.storyboard */,
+				CEA601F01CB8962800BDD6C5 /* Info.plist */,
+				CEA601DF1CB8962800BDD6C5 /* Supporting Files */,
+			);
+			path = 123;
+			sourceTree = "<group>";
+		};
+		CEA601DF1CB8962800BDD6C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA601E01CB8962800BDD6C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA601F81CB8962800BDD6C5 /* 123Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA601F91CB8962800BDD6C5 /* _23Tests.m */,
+				CEA601FB1CB8962800BDD6C5 /* Info.plist */,
+			);
+			path = 123Tests;
+			sourceTree = "<group>";
+		};
+		CEA602031CB8962900BDD6C5 /* 123UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA602041CB8962900BDD6C5 /* _23UITests.m */,
+				CEA602061CB8962900BDD6C5 /* Info.plist */,
+			);
+			path = 123UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +305,59 @@
 			productReference = CEA601C61CB88C4B00BDD6C5 /* HJLocationDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CEA601DC1CB8962800BDD6C5 /* 123 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA6020D1CB8962900BDD6C5 /* Build configuration list for PBXNativeTarget "123" */;
+			buildPhases = (
+				CEA601D91CB8962800BDD6C5 /* Sources */,
+				CEA601DA1CB8962800BDD6C5 /* Frameworks */,
+				CEA601DB1CB8962800BDD6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 123;
+			productName = 123;
+			productReference = CEA601DD1CB8962800BDD6C5 /* 123.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA601F41CB8962800BDD6C5 /* 123Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA6020E1CB8962900BDD6C5 /* Build configuration list for PBXNativeTarget "123Tests" */;
+			buildPhases = (
+				CEA601F11CB8962800BDD6C5 /* Sources */,
+				CEA601F21CB8962800BDD6C5 /* Frameworks */,
+				CEA601F31CB8962800BDD6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA601F71CB8962800BDD6C5 /* PBXTargetDependency */,
+			);
+			name = 123Tests;
+			productName = 123Tests;
+			productReference = CEA601F51CB8962800BDD6C5 /* 123Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA601FF1CB8962800BDD6C5 /* 123UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA6020F1CB8962900BDD6C5 /* Build configuration list for PBXNativeTarget "123UITests" */;
+			buildPhases = (
+				CEA601FC1CB8962800BDD6C5 /* Sources */,
+				CEA601FD1CB8962800BDD6C5 /* Frameworks */,
+				CEA601FE1CB8962800BDD6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA602021CB8962900BDD6C5 /* PBXTargetDependency */,
+			);
+			name = 123UITests;
+			productName = 123UITests;
+			productReference = CEA602001CB8962800BDD6C5 /* 123UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,6 +378,17 @@
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = CEA601A11CB88C4A00BDD6C5;
 					};
+					CEA601DC1CB8962800BDD6C5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CEA601F41CB8962800BDD6C5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEA601DC1CB8962800BDD6C5;
+					};
+					CEA601FF1CB8962800BDD6C5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEA601DC1CB8962800BDD6C5;
+					};
 				};
 			};
 			buildConfigurationList = CEA6019D1CB88C4A00BDD6C5 /* Build configuration list for PBXProject "HJLocationDemo" */;
@@ -236,6 +407,9 @@
 				CEA601A11CB88C4A00BDD6C5 /* HJLocationDemo */,
 				CEA601BA1CB88C4B00BDD6C5 /* HJLocationDemoTests */,
 				CEA601C51CB88C4B00BDD6C5 /* HJLocationDemoUITests */,
+				CEA601DC1CB8962800BDD6C5 /* 123 */,
+				CEA601F41CB8962800BDD6C5 /* 123Tests */,
+				CEA601FF1CB8962800BDD6C5 /* 123UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +433,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEA601C41CB88C4B00BDD6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601DB1CB8962800BDD6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA601EF1CB8962800BDD6C5 /* LaunchScreen.storyboard in Resources */,
+				CEA601EC1CB8962800BDD6C5 /* Assets.xcassets in Resources */,
+				CEA601EA1CB8962800BDD6C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601F31CB8962800BDD6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601FE1CB8962800BDD6C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,6 +492,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEA601D91CB8962800BDD6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA601E71CB8962800BDD6C5 /* ViewController.m in Sources */,
+				CEA601E41CB8962800BDD6C5 /* AppDelegate.m in Sources */,
+				CEA601E11CB8962800BDD6C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601F11CB8962800BDD6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA601FA1CB8962800BDD6C5 /* _23Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA601FC1CB8962800BDD6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA602051CB8962900BDD6C5 /* _23UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -306,6 +530,16 @@
 			isa = PBXTargetDependency;
 			target = CEA601A11CB88C4A00BDD6C5 /* HJLocationDemo */;
 			targetProxy = CEA601C71CB88C4B00BDD6C5 /* PBXContainerItemProxy */;
+		};
+		CEA601F71CB8962800BDD6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA601DC1CB8962800BDD6C5 /* 123 */;
+			targetProxy = CEA601F61CB8962800BDD6C5 /* PBXContainerItemProxy */;
+		};
+		CEA602021CB8962900BDD6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA601DC1CB8962800BDD6C5 /* 123 */;
+			targetProxy = CEA602011CB8962900BDD6C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,6 +556,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEA601B41CB88C4B00BDD6C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA601E81CB8962800BDD6C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA601E91CB8962800BDD6C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA601ED1CB8962800BDD6C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA601EE1CB8962800BDD6C5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -483,6 +733,76 @@
 			};
 			name = Release;
 		};
+		CEA602071CB8962900BDD6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 123/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hj.com.-23";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEA602081CB8962900BDD6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 123/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hj.com.-23";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEA602091CB8962900BDD6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hj.com.-23Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/123.app/123";
+			};
+			name = Debug;
+		};
+		CEA6020A1CB8962900BDD6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 123Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hj.com.-23Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/123.app/123";
+			};
+			name = Release;
+		};
+		CEA6020B1CB8962900BDD6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 123UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hj.com.-23UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 123;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEA6020C1CB8962900BDD6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 123UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hj.com.-23UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 123;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -521,6 +841,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		CEA6020D1CB8962900BDD6C5 /* Build configuration list for PBXNativeTarget "123" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA602071CB8962900BDD6C5 /* Debug */,
+				CEA602081CB8962900BDD6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA6020E1CB8962900BDD6C5 /* Build configuration list for PBXNativeTarget "123Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA602091CB8962900BDD6C5 /* Debug */,
+				CEA6020A1CB8962900BDD6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA6020F1CB8962900BDD6C5 /* Build configuration list for PBXNativeTarget "123UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA6020B1CB8962900BDD6C5 /* Debug */,
+				CEA6020C1CB8962900BDD6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
